@@ -1,0 +1,595 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ashverse | Aswin C</title>
+    <meta name="description" content="The personal portfolio of Aswin C, an AI and Data Science student, developer and creative entrepreneur.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Background effects -->
+    <div class="background-glow"></div>
+    <div class="cursor-glow"></div>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#home" class="logo">Ash<span>verse.</span></a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content reveal">
+
+            <span class="hero-label">
+                <span class="status-dot"></span>
+                Welcome to my digital space
+            </span>
+
+            <h1>
+                Hey there,<br>
+                I'm <span class="highlight-name">Aswin.</span>
+            </h1>
+
+            <h2 class="hero-role">
+                AI & Data Science Student
+                <span class="role-divider">|</span>
+                Aspiring Developer
+            </h2>
+
+            <p class="hero-description">
+                Exploring technology. Building ideas.
+                Creating possibilities.
+            </p>
+
+            <p class="hero-location">
+                <i class="fa-solid fa-location-dot"></i>
+                Puducherry, India
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    Explore My Work <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+                    Let's Connect
+                </a>
+            </div>
+
+            <div class="social-links">
+
+                <a href="https://www.linkedin.com/in/asheyyyhere"
+                   target="_blank" rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://github.com/Ashexyyyy"
+                   target="_blank" rel="noopener noreferrer"
+                   aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/asheyyyyyx/"
+                   target="_blank" rel="noopener noreferrer"
+                   aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://wa.me/919489521994"
+                   target="_blank" rel="noopener noreferrer"
+                   aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="mailto:aswin261809@gmail.com"
+                   aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <div class="qr-hover">
+                    <button class="qr-trigger" id="qrTrigger" aria-label="Show personal QR code" aria-expanded="false">
+                        <i class="fa-solid fa-qrcode"></i>
+                    </button>
+
+                    <div class="qr-popup">
+                        <img src="myqr.png" alt="Personal QR code">
+                        <span>Scan to connect</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="hero-image reveal">
+            <div class="image-ring">
+                <div class="image-container">
+                    <img src="ash.png" alt="Portrait of Aswin">
+                </div>
+            </div>
+
+            <div class="floating-tag tag-one">
+                <i class="fa-solid fa-code"></i> Developer
+            </div>
+
+            <div class="floating-tag tag-two">
+                <i class="fa-solid fa-brain"></i> AI Enthusiast
+            </div>
+
+            <div class="floating-star star-one">✦</div>
+            <div class="floating-star star-two">✧</div>
+        </div>
+
+        <a href="#about" class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+
+        <div class="section-heading reveal">
+            <span class="section-label">GET TO KNOW ME</span>
+            <h2>About <span>Me</span></h2>
+            <p>A little introduction to the person behind Ashverse.</p>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-text reveal">
+                <h3>Curious mind. Creative soul. Future builder.</h3>
+
+                <p>
+                    I'm Aswin, a B.Tech student specialising in Artificial
+                    Intelligence and Data Science at Sri Manakula Vinayagar
+                    Engineering College.
+                </p>
+
+                <p>
+                    I'm interested in technology, programming, artificial
+                    intelligence and discovering how ideas can turn into
+                    something useful. I enjoy learning new tools, exploring
+                    different technologies and experimenting with projects.
+                </p>
+
+                <p>
+                    Outside academics, I run <strong>Loopia</strong>, my
+                    handmade crochet venture. It gives me a space to explore
+                    my creative side and turn handmade ideas into products.
+                </p>
+
+                <p>
+                    I'm still learning, experimenting and figuring things out.
+                    This website is a small glimpse of that journey.
+                </p>
+
+                <a href="resume.pdf" class="btn btn-primary" download>
+                    <i class="fa-solid fa-download"></i> Download Resume
+                </a>
+            </div>
+
+
+            <div class="about-cards reveal">
+
+                <div class="info-card">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <div>
+                        <h4>Education</h4>
+                        <p>B.Tech AI & Data Science</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <i class="fa-solid fa-code"></i>
+                    <div>
+                        <h4>Interests</h4>
+                        <p>Programming & AI</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <div>
+                        <h4>Creative Side</h4>
+                        <p>Entrepreneurship & Design</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <i class="fa-solid fa-globe"></i>
+                    <div>
+                        <h4>Languages</h4>
+                        <p>Tamil, English & French</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+
+        <div class="section-heading reveal">
+            <span class="section-label">MY ACADEMIC JOURNEY</span>
+            <h2>Education</h2>
+            <p>Where my learning journey has taken me.</p>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date">2026 – 2030</span>
+                    <h3>B.Tech – Artificial Intelligence & Data Science</h3>
+                    <h4>Sri Manakula Vinayagar Engineering College</h4>
+                    <p>Currently pursuing undergraduate studies.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date">Higher Secondary</span>
+                    <h3>Class 12</h3>
+                    <h4>Aditya Bharathidasan</h4>
+                    <p>State Board | 91%</p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date">Higher Secondary</span>
+                    <h3>Class 11</h3>
+                    <h4>Aditya Bharathidasan</h4>
+                    <p>State Board | 89%</p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date">Secondary Education</span>
+                    <h3>Class 10</h3>
+                    <h4>Petit Seminaire</h4>
+                    <p>75%</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+
+        <div class="section-heading reveal">
+            <span class="section-label">WHAT I BRING</span>
+            <h2>My <span>Skills</span></h2>
+            <p>Technologies and abilities I'm building along the way.</p>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                <h3>Python</h3>
+                <p>Programming & Problem Solving</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                <h3>C++</h3>
+                <p>Programming & Logic Building</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fa-solid fa-terminal"></i></div>
+                <h3>C</h3>
+                <p>Fundamentals & Programming</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                <h3>HTML</h3>
+                <p>Web Structure & Development</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>Data Analysis</h3>
+                <p>Exploring and Understanding Data</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+                <h3>Machine Learning</h3>
+                <p>Learning Predictive Models</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+                <h3>Problem Solving</h3>
+                <p>Logical & Analytical Thinking</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fa-solid fa-people-group"></i></div>
+                <h3>Leadership</h3>
+                <p>Teamwork & Collaboration</p>
+            </div>
+
+        </div>
+
+
+        <div class="tools-container reveal">
+            <h3>My Toolbox</h3>
+
+            <div class="tool-list">
+                <span><i class="fa-solid fa-code"></i> VS Code</span>
+                <span><i class="fa-solid fa-chart-pie"></i> Orange3</span>
+                <span><i class="fa-solid fa-palette"></i> Canva</span>
+                <span><i class="fa-solid fa-wand-magic-sparkles"></i> AI Tools</span>
+                <span><i class="fa-brands fa-figma"></i> Figma</span>
+                <span><i class="fa-brands fa-github"></i> GitHub</span>
+                <span><i class="fa-solid fa-file-excel"></i> Excel</span>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+
+        <div class="section-heading reveal">
+            <span class="section-label">THINGS I'VE WORKED ON</span>
+            <h2>My <span>Projects</span></h2>
+            <p>A mix of technical exploration and creative work.</p>
+        </div>
+
+
+        <div class="projects-grid">
+
+            <!-- PROJECT 1 -->
+            <article class="project-card reveal">
+
+                <div class="project-image project-image-titanic">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-ship"></i>
+                    </div>
+                    <span class="project-category">DATA SCIENCE</span>
+                </div>
+
+                <div class="project-content">
+                    <h3>Titanic Survival Analysis</h3>
+
+                    <p>
+                        An exploratory data analysis project using the
+                        Titanic dataset to understand survival patterns
+                        and experiment with machine learning techniques.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Orange3</span>
+                        <span>KNN</span>
+                        <span>K-Means</span>
+                        <span>EDA</span>
+                    </div>
+
+                    <div class="project-footer">
+                        <span class="project-status">
+                            <i class="fa-solid fa-circle"></i> Learning Project
+                        </span>
+                    </div>
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 2 -->
+            <article class="project-card reveal">
+
+                <div class="project-image project-image-loopia">
+                    <img src="loopia.png" alt="Loopia handmade crochet creation">
+
+                    <span class="project-category">CREATIVE VENTURE</span>
+                </div>
+
+                <div class="project-content">
+                    <h3>Loopia</h3>
+
+                    <p>
+                        A handmade crochet venture where creativity meets
+                        craftsmanship. Custom-made crochet creations,
+                        accessories and little handmade treasures.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Entrepreneurship</span>
+                        <span>Creative Design</span>
+                        <span>Branding</span>
+                    </div>
+
+                    <div class="project-footer">
+                        <a href="https://www.instagram.com/loopia_crafy/"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-link">
+                            Explore Loopia <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="section certifications-section" id="certifications">
+
+        <div class="section-heading reveal">
+            <span class="section-label">LEARNING NEVER STOPS</span>
+            <h2>Certifications & <span>Learning</span></h2>
+            <p>Some milestones from my learning journey.</p>
+        </div>
+
+        <div class="cert-grid">
+
+            <div class="cert-card reveal">
+                <div class="cert-icon">
+                    <i class="fa-solid fa-language"></i>
+                </div>
+
+                <div>
+                    <h3>DELF A1 – French</h3>
+                    <p>French language proficiency certification.</p>
+                    <span class="cert-tag">Language</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal">
+                <div class="cert-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+
+                <div>
+                    <h3>C Programming – Skillrack</h3>
+                    <p>Programming fundamentals and practice.</p>
+                    <span class="cert-tag">Programming</span>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="cert-note">
+            More learning milestones and projects will be added here.
+        </p>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+
+        <div class="contact-content reveal">
+
+            <span class="section-label">HAVE SOMETHING IN MIND?</span>
+
+            <h2>Let's Create Something <span>Awesome.</span></h2>
+
+            <p>
+                Have an idea, opportunity, collaboration or just want
+                to say hello? My inbox is open.
+            </p>
+
+            <a href="mailto:aswin261809@gmail.com"
+               class="btn btn-contact">
+                Get In Touch <i class="fa-solid fa-paper-plane"></i>
+            </a>
+
+            <div class="contact-details">
+
+                <a href="mailto:aswin261809@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    aswin261809@gmail.com
+                </a>
+
+                <a href="https://wa.me/919489521994"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    WhatsApp
+                </a>
+
+                <span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Puducherry, India
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#home" class="footer-logo">Ash<span>verse.</span></a>
+
+        <p>
+            Designed with curiosity and built with creativity.
+        </p>
+
+        <div class="footer-socials">
+
+            <a href="https://github.com/Ashexyyyy" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/asheyyyhere" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://www.instagram.com/asheyyyyyx/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <span id="year"></span> Aswin C. All rights reserved.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+
+    </footer>
+
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
